@@ -24,4 +24,4 @@ package.json
 - 定义 `"main": "dist/index.js"`
 - 定义 `"module": "dist/index.esm.js"`
 - 定义 `"types": "dist/index.d.ts"`
-- `@wangeditor/core` `@wangeditor/editor` 不要安装在 `dependencies` ，否则用户安装时也会安装它们
+- `@wangeditor-next/core` `@wangeditor-next/editor` 不要安装在 `dependencies` ，否则用户安装时也会安装它们

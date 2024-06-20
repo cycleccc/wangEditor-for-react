@@ -4,8 +4,8 @@
  */
 
 import React, { Component } from 'react'
-import { IDomEditor, IEditorConfig, SlateDescendant } from '@wangeditor/editor'
-import '@wangeditor/editor/dist/css/style.css'
+import { IDomEditor, IEditorConfig, SlateDescendant } from '@wangeditor-next/editor'
+import '@wangeditor-next/editor/dist/css/style.css'
 import { Editor, Toolbar } from '../../src/index'
 
 interface IState {

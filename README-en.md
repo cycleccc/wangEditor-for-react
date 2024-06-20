@@ -13,22 +13,22 @@ An react component based on the [wangEditor](https://www.wangeditor.com/en/v5/fo
 1. Install the current component package
 
 ```shell
-yarn add @wangeditor/editor-for-react
-# or npm install @wangeditor/editor-for-react --save
+yarn add @wangeditor-next/editor-for-react
+# or npm install @wangeditor-next/editor-for-react --save
 
 ```
 
 2. Install the `wangeditor` core package
 
 ```shell
-yarn add @wangeditor/editor
+yarn add @wangeditor-next/editor
 
-# or npm install @wangeditor/editor --save
+# or npm install @wangeditor-next/editor --save
 ```
 3. Import component
 
 ```ts
-import { Editor, Toolbar } from '@wangeditor/editor-for-react'
+import { Editor, Toolbar } from '@wangeditor-next/editor-for-react'
 ```
 
 ## Usage

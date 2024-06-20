@@ -4,7 +4,7 @@
  */
 
 import React, { useRef, useEffect } from 'react'
-import * as wangEditor from '@wangeditor/editor'
+import * as wangEditor from '@wangeditor-next/editor'
 
 interface IProps {
   editor: wangEditor.IDomEditor | null

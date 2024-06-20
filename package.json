@@ -1,10 +1,10 @@
 {
-  "name": "@wangeditor/editor-for-react",
+  "name": "@wangeditor-next/editor-for-react",
   "version": "1.0.6",
   "description": "wangEditor component for React",
   "author": "hahaaha <390519764@qq.com>",
   "contributors": [],
-  "homepage": "https://github.com/wangeditor-team/wangEditor-for-react#readme",
+  "homepage": "https://github.com/cycleccc/wangEditor-for-react#readme",
   "license": "MIT",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -15,6 +15,7 @@
   },
   "keywords": [
     "wangEditor",
+    "wangEditor-next",
     "富文本编辑器",
     "富文本",
     "react"
@@ -28,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangeditor-team/wangEditor-for-react.git"
+    "url": "git+https://github.com/cycleccc/wangEditor-for-react.git"
   },
   "scripts": {
     "test": "jest",
@@ -42,11 +43,11 @@
     "release": "release-it"
   },
   "bugs": {
-    "url": "https://github.com/wangeditor-team/wangEditor-for-react/issues"
+    "url": "https://github.com/cycleccc/wangEditor-for-react/issues"
   },
   "peerDependencies": {
-    "@wangeditor/core": ">=1.1.0",
-    "@wangeditor/editor": ">=5.1.0",
+    "@wangeditor-next/core": ">=1.2.2",
+    "@wangeditor-next/editor": ">=5.2.5",
     "react": ">=17.0.2",
     "react-dom": ">=17.0.2"
   },
@@ -66,8 +67,8 @@
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.13",
     "@types/react-dom": "^17.0.8",
-    "@wangeditor/core": "^1.0.0",
-    "@wangeditor/editor": "^5.0.0",
+    "@wangeditor-next/core": "^1.2.2",
+    "@wangeditor-next/editor": "^5.2.5",
     "autoprefixer": "^10.4.0",
     "babel-jest": "^27.3.1",
     "cross-env": "^7.0.3",
@@ -86,7 +87,7 @@
     "rollup-plugin-postcss": "^4.0.1",
     "rollup-plugin-serve": "^1.1.0",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-typescript2": "^0.31.0",
     "rollup-plugin-visualizer": "^5.5.2",
     "ts-jest": "^27.0.7",
     "typescript": "^4.4.4"

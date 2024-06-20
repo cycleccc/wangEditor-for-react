@@ -34,7 +34,7 @@ const config = createRollupConfig({
     del({ targets: 'dist-example/*' }),
     copy({
       // 将 packages/editor/dist 拷贝到 dist-example
-      targets: [{ src: './node_modules/@wangeditor/editor/dist/*', dest: 'dist-example/editor-dist' }],
+        targets: [{src: './node_modules/@wangeditor-next/editor/dist/*', dest: 'dist-example/editor-dist'}],
     }),
   ],
 })

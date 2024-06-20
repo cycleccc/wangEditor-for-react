@@ -4,7 +4,7 @@
  */
 
 import React, { useRef, useEffect, useState } from 'react'
-import {SlateDescendant, IEditorConfig, createEditor, IDomEditor, SlateEditor, SlateTransforms } from '@wangeditor/editor'
+import {SlateDescendant, IEditorConfig, createEditor, IDomEditor, SlateEditor, SlateTransforms } from '@wangeditor-next/editor'
 
 interface IProps {
   defaultContent?: SlateDescendant[]

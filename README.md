@@ -14,22 +14,22 @@
 1. 安装组件包
 
 ```shell
-yarn add @wangeditor/editor-for-react
-# 或者npm install @wangeditor/editor-for-react --save
+yarn add @wangeditor-next/editor-for-react
+# 或者npm install @wangeditor-next/editor-for-react --save
 
 ```
 
 2. 安装核心包
 
 ```shell
-yarn add @wangeditor/editor
+yarn add @wangeditor-next/editor
 
-# 或者 npm install @wangeditor/editor --save
+# 或者 npm install @wangeditor-next/editor --save
 ```
 3. 导入组件
 
 ```ts
-import { Editor, Toolbar } from '@wangeditor/editor-for-react'
+import { Editor, Toolbar } from '@wangeditor-next/editor-for-react'
 ```
 
 ## 使用
