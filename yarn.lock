@@ -2244,24 +2244,24 @@
     "@uppy/utils" "^4.1.2"
     nanoid "^3.1.25"
 
-"@wangeditor-next/basic-modules@^1.2.2":
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/@wangeditor-next/basic-modules/-/basic-modules-1.2.3.tgz#fb37c77c4f973187b40f04f0d052fbd7d0b695b7"
-  integrity sha512-zfE58LQeKfgJ5zFvDy81ji+StXwpx5mVoaqC7s4C/NPDosiBfcNnThbw1zS60hySKShswcT/5OOEo3U8wRYF+g==
+"@wangeditor-next/basic-modules@^1.3.5":
+  version "1.4.0"
+  resolved "https://registry.npmmirror.com/@wangeditor-next/basic-modules/-/basic-modules-1.4.0.tgz#031b0316d2e76e1a591e9a4588ad198912de62ba"
+  integrity sha512-IfsJStDo4w7xsfYqfPZrygkTkPz7dc0atiqjDPRGZlBwoOSU/WcDX5rRgV89wH0FJYcM8UResUhlAT5yDG8ytw==
   dependencies:
     is-url "^1.2.4"
 
-"@wangeditor-next/code-highlight@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@wangeditor-next/code-highlight/-/code-highlight-1.2.0.tgz#c0a75e80a324a0758b54b968ce6cc35602b9f3f2"
-  integrity sha512-CNteGYbifyDXxg3ygWBoSkg7bt5+MP+Nu9yysOhizWgjqyLeAo4eBuyurJpbCWbLa0PL2iTBqfWAaZd7/Fq+Nw==
+"@wangeditor-next/code-highlight@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npmmirror.com/@wangeditor-next/code-highlight/-/code-highlight-1.2.1.tgz#d3f01deee82df15487cd4798b58e06ad3596dd04"
+  integrity sha512-tIWOlTysGOhQt20HqpxYGbiZolB/5CwCQhynP3OlvERKqou6ITJWMTbF3QiObG+CNzLN5NFxtWEUhbnhqqbUAg==
   dependencies:
     prismjs "^1.23.0"
 
-"@wangeditor-next/core@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@wangeditor-next/core/-/core-1.2.2.tgz#b0c02fa913a367add276c37917b5ff0927ec8cb7"
-  integrity sha512-0nBoGwHiiVQMpYaepw0aYt/Ir/8OO2BPnBjS6GypWrLmheOpzkLiZ6MRAoKtluqIpdAqMf6rCuqZdxjCNwrerw==
+"@wangeditor-next/core@^1.5.5":
+  version "1.5.5"
+  resolved "https://registry.npmmirror.com/@wangeditor-next/core/-/core-1.5.5.tgz#e7ba0be2fdeefe970163986f822483acc8f8da83"
+  integrity sha512-nS57CQAjHyCgKxmCrJiStxJbPLTg7EGk/GIXl1C3YscNDO1znulgKEAxsEQ1N0NPCU5kDE1q+hbsS6RAdjgdrg==
   dependencies:
     "@types/event-emitter" "^0.3.3"
     event-emitter "^0.3.5"
@@ -2270,20 +2270,20 @@
     scroll-into-view-if-needed "^2.2.28"
     slate-history "^0.66.0"
 
-"@wangeditor-next/editor@^5.2.5":
-  version "5.2.5"
-  resolved "https://registry.npmjs.org/@wangeditor-next/editor/-/editor-5.2.5.tgz#e0a4a9f5cfce5f5de34bbd289036f96c47c884c8"
-  integrity sha512-ZMcR2XT0B3Uv4qLA+CXdxg9q9jR88Kl6804Ps9VlNYefCXlrdiYVH5webhAtDFFFoN9U+pYRJ/6RxJS8gEabLA==
+"@wangeditor-next/editor@^5.3.12":
+  version "5.3.12"
+  resolved "https://registry.npmmirror.com/@wangeditor-next/editor/-/editor-5.3.12.tgz#3e07db406b33f30f1bf6436e8c14156f89871754"
+  integrity sha512-u4NkNxsmFnXs8v+ohmkxsAESAOAh1jDAEv8WVQW6mLVJME6vYQAE1pYMHofXd57+P08xoDau2vcB/FCwQx/m4A==
   dependencies:
     "@uppy/core" "^2.1.1"
     "@uppy/xhr-upload" "^2.0.3"
-    "@wangeditor-next/basic-modules" "^1.2.2"
-    "@wangeditor-next/code-highlight" "^1.2.0"
-    "@wangeditor-next/core" "^1.2.2"
-    "@wangeditor-next/list-module" "^1.1.0"
-    "@wangeditor-next/table-module" "^1.2.0"
-    "@wangeditor-next/upload-image-module" "^1.1.0"
-    "@wangeditor-next/video-module" "^1.2.2"
+    "@wangeditor-next/basic-modules" "^1.3.5"
+    "@wangeditor-next/code-highlight" "^1.2.1"
+    "@wangeditor-next/core" "^1.5.5"
+    "@wangeditor-next/list-module" "^1.1.4"
+    "@wangeditor-next/table-module" "^1.3.7"
+    "@wangeditor-next/upload-image-module" "^1.1.1"
+    "@wangeditor-next/video-module" "^1.3.2"
     dom7 "^3.0.0"
     is-hotkey "^0.2.0"
     lodash.camelcase "^4.3.0"
@@ -2297,25 +2297,25 @@
     slate "^0.72.0"
     snabbdom "^3.1.0"
 
-"@wangeditor-next/list-module@^1.1.0":
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/@wangeditor-next/list-module/-/list-module-1.3.0.tgz#f0dc47c6449428ee0a685214f68c3800b0dc4cbf"
-  integrity sha512-n+tLJlfWbmVZSjSRwM/Mto1syN7IrOHONGZSd+sKUW4/jDZ1LLxUt65Ng8gs+1U+z3O9pdz6dW6VUigOL6ZX2w==
+"@wangeditor-next/list-module@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.npmmirror.com/@wangeditor-next/list-module/-/list-module-1.1.4.tgz#bff6128317d8d68675214765e9358ee9919ee3e6"
+  integrity sha512-UQkUaNi/hBcR8fvadSW/GtLWButKSHdwlqVupY8LKOapviNg1NPvGu4RkQkR2FA/WX66IaBIQNhROeRvG9vr0w==
 
-"@wangeditor-next/table-module@^1.2.0":
+"@wangeditor-next/table-module@^1.3.7":
   version "1.4.0"
-  resolved "https://registry.npmjs.org/@wangeditor-next/table-module/-/table-module-1.4.0.tgz#f6f7f4ed7e1197ed37043c2da6041091672e2a53"
+  resolved "https://registry.npmmirror.com/@wangeditor-next/table-module/-/table-module-1.4.0.tgz#f6f7f4ed7e1197ed37043c2da6041091672e2a53"
   integrity sha512-PdvO+BYof0pcN2CMKftExMfi1NUMWWxXZG2SALc1IklpRR1fcgLOmr4Og/Wo2u36QQrAz1Z2tD7NUo4m2ANgmw==
 
-"@wangeditor-next/upload-image-module@^1.1.0":
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/@wangeditor-next/upload-image-module/-/upload-image-module-1.3.0.tgz#5cfba31cec5c5bcfc7479543ab6c8844776e7916"
-  integrity sha512-M4QMhOcUYwsw3Op7WjfY49YbZc9CbCzkbdKMeXRbvp5RF7xo8j86xsMyANOhtcNgV6CP5MChkU1F0Ky04HZs0g==
+"@wangeditor-next/upload-image-module@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.npmmirror.com/@wangeditor-next/upload-image-module/-/upload-image-module-1.1.1.tgz#4f1439fa5d43c9198c3813472ad6d9049273d873"
+  integrity sha512-U6mBrgyIj6LSYNFkZlh8TWdcehgWE5/RRGzbtsQ4ZQsEaWdvhMxsrpnG+7a8BozPl6VwFAdvbUd+KdEGvuw8hQ==
 
-"@wangeditor-next/video-module@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@wangeditor-next/video-module/-/video-module-1.2.2.tgz#88bc1b55cd25e30a6a570f9c561ac0b627bcf736"
-  integrity sha512-D/UZvPG401CgP8T4u8KwGgsD0+YOs0LhBtM2pc7ORDEvVcedoVmnn12X98Gn096MiN2KkgixUS8RHEH+OTe8ew==
+"@wangeditor-next/video-module@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.npmmirror.com/@wangeditor-next/video-module/-/video-module-1.3.2.tgz#7de4e65e3573563202e6e9e92f9aaa0869e9682c"
+  integrity sha512-s8bPoZilumhPMCO99j+v6a5Kkiuz0wiffYNg3rknDgFm4mw8Q9CJRTlTRKrAMR8M41SBETVoqkk1Na+KLbgAvA==
 
 "@yarn-tool/resolve-package@^1.0.40":
   version "1.0.47"
@@ -5227,11 +5227,6 @@ is-unicode-supported@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz#3f26c76a809593b52bfa2ecb5710ed2779b522a7"
   integrity sha512-knxG2q4UC3u8stRGyAVJCOdxFmv5DZiRcdlIaAQXAbSfJya+OhopNotLQrstBhququ4ZpuKbDc/8S6mgXgPFPw==
-
-is-unicode-supported@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmmirror.com/is-unicode-supported/-/is-unicode-supported-1.3.0.tgz#d824984b616c292a2e198207d4a609983842f714"
-  integrity sha512-43r2mRvz+8JRIKnWJ+3j8JtjRKZ6GmjzfaE/qiBJnikNnYv/6bagRJ1kUhNk8R5EX/GkobD+r+sfxCPJsiKBLQ==
 
 is-url@^1.2.4:
   version "1.2.4"
