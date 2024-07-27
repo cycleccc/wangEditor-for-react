@@ -46,8 +46,8 @@
     "url": "https://github.com/cycleccc/wangEditor-for-react/issues"
   },
   "peerDependencies": {
-    "@wangeditor-next/core": ">=1.2.2",
-    "@wangeditor-next/editor": ">=5.2.5",
+    "@wangeditor-next/core": ">=1.5.5",
+    "@wangeditor-next/editor": ">=5.3.12",
     "react": ">=17.0.2",
     "react-dom": ">=17.0.2"
   },
@@ -67,8 +67,8 @@
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.13",
     "@types/react-dom": "^17.0.8",
-    "@wangeditor-next/core": "^1.2.2",
-    "@wangeditor-next/editor": "^5.2.5",
+    "@wangeditor-next/core": "^1.5.5",
+    "@wangeditor-next/editor": "^5.3.12",
     "autoprefixer": "^10.4.0",
     "babel-jest": "^27.3.1",
     "cross-env": "^7.0.3",
