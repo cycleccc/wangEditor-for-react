@@ -33,17 +33,6 @@ function EditorComponent(props: Partial<IProps>) {
     if (onCreatedFromConfig) onCreatedFromConfig(editor)
   }
 
-  const handleChanged = (editor: IDomEditor) => {
-    setCurValue(editor.getHtml()) // 记录当前 html 值
-
-    // 组件属性 onChange
-    if (onChange) onChange(editor)
-
-    // 编辑器 配置 onChange
-    const { onChange: onChangeFromConfig } = defaultConfig
-    if (onChangeFromConfig) onChangeFromConfig(editor)
-  }
-
   const handleDestroyed = (editor: IDomEditor) => {
     const { onDestroyed } = defaultConfig
     setEditor(null)
@@ -51,6 +40,21 @@ function EditorComponent(props: Partial<IProps>) {
       onDestroyed(editor)
     }
   }
+
+  useEffect(() => {
+    if (editor == null) return
+
+    editor.__react_on_change = (e: IDomEditor) => {
+      setCurValue(e.getHtml()) // 记录当前 html 值
+  
+      // 组件属性 onChange
+      if (onChange) onChange(e)
+  
+      // 编辑器 配置 onChange
+      const { onChange: onChangeFromConfig } = defaultConfig
+      if (onChangeFromConfig) onChangeFromConfig(e)
+    }
+  }, [editor, defaultConfig])
 
   // value 变化，重置 HTML
   useEffect(() => {
@@ -78,7 +82,7 @@ function EditorComponent(props: Partial<IProps>) {
       config: {
         ...defaultConfig,
         onCreated: handleCreated,
-        onChange: handleChanged,
+        onChange: (e: IDomEditor)=> newEditor?.__react_on_change?.(e),
         onDestroyed: handleDestroyed,
       },
       content: defaultContent,
