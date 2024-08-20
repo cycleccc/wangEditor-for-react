@@ -18,10 +18,14 @@ interface IProps {
   className?: string
 }
 
+interface ICustomDomEditor extends IDomEditor {
+  __react_on_change?: (editor: ICustomDomEditor) => void;
+}
+
 function EditorComponent(props: Partial<IProps>) {
   const { defaultContent = [], onCreated, defaultHtml = '', value = '', onChange, defaultConfig = {}, mode = 'default', style = {}, className } = props
   const ref = useRef<HTMLDivElement>(null)
-  const [editor, setEditor] = useState<IDomEditor | null>(null)
+  const [editor, setEditor] = useState<ICustomDomEditor | null>(null)
   const [curValue, setCurValue] = useState('')
 
   const handleCreated = (editor: IDomEditor) => {
@@ -88,7 +92,7 @@ function EditorComponent(props: Partial<IProps>) {
       content: defaultContent,
       html: defaultHtml || value,
       mode,
-    })
+    })as ICustomDomEditor
     setEditor(newEditor)
   }, [editor])
 
