@@ -21,6 +21,7 @@ function ToolbarComponent(props: IProps) {
   useEffect(() => {
     if (ref.current == null) return
     if (editor == null) return
+    if (ref.current?.getAttribute('data-w-e-toolbar')) return
 
     wangEditor.createToolbar({
       editor,
