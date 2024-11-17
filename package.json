@@ -1,17 +1,17 @@
 {
   "name": "@wangeditor-next/editor-for-react",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "wangEditor component for React",
   "author": "hahaaha <390519764@qq.com>",
   "contributors": [],
-  "homepage": "https://github.com/cycleccc/wangEditor-for-react#readme",
   "license": "MIT",
-  "types": "dist/index.d.ts",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "browser": {
-    "./dist/index.js": "./dist/index.js",
-    "./dist/index.esm.js": "./dist/index.esm.js"
+  "homepage": "https://github.com/cycleccc/wangEditor-for-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cycleccc/wangEditor-for-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cycleccc/wangEditor-for-react/issues"
   },
   "keywords": [
     "wangEditor",
@@ -20,6 +20,13 @@
     "富文本",
     "react"
   ],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "browser": {
+    "./dist/index.esm.js": "./dist/index.esm.js",
+    "./dist/index.js": "./dist/index.js"
+  },
   "directories": {
     "lib": "dist",
     "test": "__tests__"
@@ -27,10 +34,6 @@
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cycleccc/wangEditor-for-react.git"
-  },
   "scripts": {
     "test": "jest",
     "test-c": "jest --coverage",
@@ -42,9 +45,6 @@
     "size-stats": "cross-env NODE_ENV=production:size_stats rollup -c rollup.config.js",
     "release": "release-it"
   },
-  "bugs": {
-    "url": "https://github.com/cycleccc/wangEditor-for-react/issues"
-  },
   "peerDependencies": {
     "@wangeditor-next/core": ">=1.5.5",
     "@wangeditor-next/editor": ">=5.3.12",
@@ -52,6 +52,7 @@
     "react-dom": ">=17.0.2"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.23.2",
     "@babel/core": "^7.16.0",
     "@babel/plugin-transform-runtime": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
@@ -72,6 +73,7 @@
     "autoprefixer": "^10.4.0",
     "babel-jest": "^27.3.1",
     "cross-env": "^7.0.3",
+    "eslint": "9.5.0",
     "jest": "^27.3.1",
     "lodash": "^4.17.21",
     "postcss": "^8.3.11",
@@ -90,9 +92,7 @@
     "rollup-plugin-typescript2": "^0.31.0",
     "rollup-plugin-visualizer": "^5.5.2",
     "ts-jest": "^27.0.7",
-    "typescript": "^4.4.4",
-    "@antfu/eslint-config": "^2.23.2",
-    "eslint": "9.5.0"
+    "typescript": "^4.4.4"
   },
-  "dependencies": {}
+  "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d"
 }
